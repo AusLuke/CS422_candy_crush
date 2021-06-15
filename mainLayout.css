@@ -1,0 +1,90 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+/* body and buttons */
+
+ body {
+	margin: auto;
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn {
+	border: 1px solid gray;
+	box-shadow: 1px 1px 5px black;
+}
+
+.btn:hover {
+	background-color: #8c8c8c;
+}
+
+.btn:disabled {
+	background-color: #330000;
+}
+
+#firstColumn, #mainColumn, #lastColumn {
+	margin: auto;
+	padding: 10px;
+}
+
+#candyCrush {
+	font-weight: bold;
+	color: red;
+}
+
+#gameBoard {
+	margin: auto;
+	width: 320px;
+	height: 320px;
+	table-layout: fixed;
+	color: black;
+}
+
+#moveInput {
+	width: 50px;
+}
+
+#moveInput:hover, #moveInput:focus {
+	box-shadow: 0 0 5px blue;
+}
+
+#arrows {
+	margin: 10px auto;
+}
+
+
+/* candies */
+
+.candy-red, .candy-green, .candy-orange, .candy-blue, .candy-purple, .candy-yellow {
+	display: table;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+.candy-red {
+	background-color: red;
+}
+
+.candy-green {
+	background-color: green;
+}
+
+.candy-orange {
+	background-color: orange;
+}
+
+.candy-blue {
+	background-color: blue;
+}
+
+.candy-purple {
+	background-color: purple;
+}
+
+.candy-yellow {
+	background-color: yellow;
+	color: black;
+}
