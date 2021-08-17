@@ -7,4 +7,4 @@ This is a basic, text version of the game candy crush. Written in vanilla JavaSc
 # Play Candy Crush!
 To play, first click on the New Game button, then enter the letter and number of the square you want to move. The arrow buttons will light up if there is a valid move that will crush 3+ candies. To execute the crush, press the Crush Once button, rinse, and repeat!
 
-You can try the game out at this link: https://ausluke.github.io/CS422_candy_crush/
+You can try the game out at this link: https://ausluke.github.io/Candy-Crush/
